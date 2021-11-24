@@ -49,7 +49,7 @@ WHERE name LIKE '%8';
 -- 12. Вывести пользователей где в имени в есть буква а
 
 SELECT * FROM students
-WHERE name LIKE '%a%';
+WHERE name LIKE '%a%' or name like '%а%';
 
 -- 13. Вывести пользователей которые были созданы 2021-07-12 00:00:00
 
