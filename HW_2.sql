@@ -11,15 +11,75 @@ create table employees(
 --Наполнить таблицу employee 70 строками
 insert into employees (employee_name)
 values ('Natalie'),
-	   ('Nicola'),
-	   ('Olivia'),
-	   ('Penelope'),
-	   ('Pippa'),
-	   ('Rachel'),
-	   ('Rebecca'),
-	   ('Rose'),
-	   ('Ruth'),	 
-	   ('Sally');
+       ('Nicola'),
+       ('Olivia'),
+       ('Penelope'),
+       ('Jake'),
+       ('Rachel'),
+       ('Rebecca'),
+       ('Rose'),
+       ('Ruth'),	 
+       ('Sally'),
+       ('Connor'),
+       ('Charlie'),
+       ('Ethan'),
+       ('David'),
+       ('Richard'),
+       ('Joseph'),
+       ('Charles'),
+       ('Thomas'),
+       ('Ruth'),	 
+       ('James'),
+       ('Oliver'),
+       ('Jack'),
+       ('Harry'),
+       ('Jacob'),
+       ('Charlie'),
+       ('Thomas'),
+       ('George'),
+       ('Oscar'),
+       ('James'),	 
+       ('William'),
+       ('Jake'),
+       ('Connor'),
+       ('Callum'),
+       ('Kyle'),
+       ('Joe'),
+       ('Reece'),
+       ('Rhys'),
+       ('Charlie'),
+       ('Damian'),	 
+       ('Noah'),
+       ('Liam'),
+       ('Mason'),
+       ('William'),
+       ('Ethan'),
+       ('Michael'),
+       ('Alexander'),
+       ('Daniel'),
+       ('Robert'),
+       ('Ruth'),	 
+       ('Sally'),
+       ('Natalie'),
+       ('Nicola'),
+       ('Mark'),
+       ('Penelope'),
+       ('Christopher'),
+       ('Rachel'),
+       ('Joseph'),
+       ('Rose'),
+       ('Ruth'),	 
+       ('Sally'),
+       ('Kevin'),
+       ('Andrew'),
+       ('Olivia'),
+       ('Penelope'),
+       ('Pippa'),
+       ('Steven'),
+       ('Ronald'),
+       ('Timothy'),
+       ('Gary'),	 
+       ('Eric');
 
 --проверка  
 select * from employees e ;
@@ -34,7 +94,7 @@ create table salary(
 	monthly_salary int not null
 );
 
---Наполнить таблицу salary 15 строками:
+--Наполнить таблицу salary 16 строками:
 --- 1000
 --- 1100
 --- 1200
@@ -54,7 +114,7 @@ create table salary(
 
 insert into salary (monthly_salary)
 values (1000),
- 	   (1100),
+       (1100),
        (1200),
        (1300),
        (1400),
