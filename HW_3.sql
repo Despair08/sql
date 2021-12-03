@@ -267,9 +267,7 @@ where role_name like '%Junior%'
 
 -- 21. Вывести среднюю зарплату всех Junior специалистов
 
-select  employee_name as "имя Junior специалиста",
-		role_name,
-		monthly_salary as "ЗП Junior специалиста"
+select  avg(monthly_salary) as "средняя ЗП всех Junior специалистов"
 from roles_employee
 join employees
 on roles_employee.employee_id = employees.id
@@ -279,7 +277,7 @@ join employee_salary
 on employee_salary.salary_id = roles_employee.role_id 
 join salary
 on salary.id = employee_salary.salary_id 
-where role_name like '%Junior%QA%';
+where role_name like '%Junior%';
 
 -- 22. Вывести сумму зарплат JS разработчиков
 
