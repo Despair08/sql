@@ -2,8 +2,11 @@
 - [X] **HW_1**
 + Запросы на выборку
 + Сортировка данных
++ логические, арифметические операции
++ математические функции
 
- ___SELECT___, ___WHERE___, ___ORDER BY___
+ ___SELECT___, ___WHERE___, ___ORDER BY___  
+ ___LIKE___, ___BETWEEN___, ___IN___
 
 ______
 
@@ -12,5 +15,12 @@ ______
 + Изменение данных
 + Создание связей
 
- ___CREATE TABLE___, ___INSERT INTO___, ___ALTER TABLE___
- ___PRIMARY KEY___, ___FOREIGN KEY___
+ ___CREATE TABLE___, ___INSERT INTO___,   ___ALTER TABLE___, ___PRIMARY KEY___,   ___FOREIGN KEY___
+
+---------
+- [X] **HW_3**
++ Объединение таблиц
+
+  ___JOIN___,
+  ___LEFT  JOIN___,
+  ___RIGHT  JOIN___
