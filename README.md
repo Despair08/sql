@@ -8,8 +8,8 @@
  ___SELECT___, ___WHERE___, ___ORDER BY___  
  ___LIKE___, ___BETWEEN___, ___IN___
 
- >Задание можно посмотреть в файле
- <a href="/HW_1.sql">HW_1.sql</a>
+>Задание можно посмотреть в файле
+<a href="/HW_1.sql">HW_1.sql</a>
 ______
 
 - [X] **HW_2**
@@ -19,8 +19,8 @@ ______
 
  ___CREATE TABLE___, ___INSERT INTO___,   ___ALTER TABLE___, ___PRIMARY KEY___,   ___FOREIGN KEY___
 
- >Задание можно посмотреть в файле
- <a href="/HW_2.sql">HW_2.sql</a>
+>Задание можно посмотреть в файле
+<a href="/HW_2.sql">HW_2.sql</a>
 ---------
 - [X] **HW_3**
 + Объединение таблиц
@@ -29,5 +29,5 @@ ______
   ___LEFT  JOIN___,
   ___RIGHT  JOIN___
 
-  >Задание можно посмотреть в файле
-  <a href="/HW_3.sql">HW_3.sql</a>
+>Задание можно посмотреть в файле
+<a href="/HW_3.sql">HW_3.sql</a>
